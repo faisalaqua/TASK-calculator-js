@@ -6,12 +6,25 @@
  * If you click on button 0, the text will be "0"
  * If you click on button +, the text will be "+"
  * ,... and so on
- */
+//  */
 function buttonClick(text) {
   console.log("Clicking", text);
-    if text.isInteger
-    return printOnConsole(text)
+ const NO1 = Number.isInteger(text)
+ if (NO1 === true){
+  return printOnConsole (text)
+ }
+  else {printOnConsole ("")
+  }
 }
+
+
+
+// CONST buttonClick = (text) => ( console.log("Clicking", text)
+//  const NO1 = Number.isInteger(text)
+//  if (NO1 === true){
+//   return printOnConsole (text)
+//  }
+//   else {printOnConsole (""))
 
 /** Supporting functions
  * 1. `printOnConsole(text)`, takes any text, and renders the console part of the web page
@@ -19,5 +32,4 @@ function buttonClick(text) {
  */
 
 // Remove Me after testing
-printOnConsole("123");
 updateHistory(["This is a sample historry", "1 + 5 = 6", "5 x 10 = 50"]);
