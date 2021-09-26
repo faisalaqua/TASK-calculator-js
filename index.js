@@ -9,7 +9,8 @@
  */
 function buttonClick(text) {
   console.log("Clicking", text);
- return printOnConsole (text)
+    if text.isInteger
+    return printOnConsole(text)
 }
 
 /** Supporting functions
