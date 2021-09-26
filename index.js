@@ -7,17 +7,31 @@
  * If you click on button +, the text will be "+"
  * ,... and so on
 //  */
+
+
 function buttonClick(text) {
   console.log("Clicking", text);
- const NO1 = Number.isInteger(text)
- if (NO1 === true){
-  return printOnConsole (text)
- }
-  else {printOnConsole ("")
+  const NO1 = Number.isInteger(text);
+  if (NO1 === true) {
+    const integer1 = `${text}`;
+    return printOnConsole(text);
+  } else {
+    printOnConsole(" ");
   }
 }
+// console.log(integer1);
+// let numbers = [1,2,3,4,5,6,7,8,9,0]
 
+let operation = {num1:, num2:, ops: }
 
+const operation = ((buttonClick(text)) =>
+const numberOperation = Number.isInteger(text)
+if (numberOperation === true) {
+  operation.num1 = text
+
+}
+
+// )
 
 // CONST buttonClick = (text) => ( console.log("Clicking", text)
 //  const NO1 = Number.isInteger(text)
